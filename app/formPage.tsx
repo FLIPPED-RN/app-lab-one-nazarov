@@ -120,7 +120,7 @@ export default function FormPage() {
                     key={i}
                     style={styles.gradeInput}
                     keyboardType="numeric"
-                    placeholder={`Оценка ${i + 1}`}
+                    placeholder={`${i + 3}`}
                     value={val}
                     onChangeText={text => {
                       const newSes = [...ses];
